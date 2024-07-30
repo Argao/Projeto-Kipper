@@ -11,7 +11,7 @@ import lombok.Setter;
 import java.util.UUID;
 
 @Entity
-@Table(name = "cupon")
+@Table(name = "address")
 @Getter
 @Setter
 @AllArgsConstructor
