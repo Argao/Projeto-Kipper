@@ -1,4 +1,4 @@
-package com.eventostec.api.domain.cupon;
+package com.eventostec.api.domain.coupon;
 
 import com.eventostec.api.domain.event.Event;
 import jakarta.persistence.*;
@@ -11,12 +11,12 @@ import java.util.Date;
 import java.util.UUID;
 
 @Entity
-@Table(name = "cupon")
+@Table(name = "coupon")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cupon {
+public class Coupon {
 
     @Id
     @GeneratedValue
